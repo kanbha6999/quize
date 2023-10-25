@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Web Development Quiz</h1>
+        <div id="name-input">
+            <label for="playerName">Enter your name:</label>
+            <input type="text" id="playerName" />
+            <button id="startButton">Start Quiz</button>
+        </div>
+        <p id="question">Question goes here</p>
+        <div class="options">
+            <button class="option" id="optionA">Option A</button>
+            <button class="option" id="optionB">Option B</button>
+            <button class="option" id="optionC">Option C</button>
+            <button class="option" id="optionD">Option D</button>
+        </div>
+        <p>Score: <span id="score">0</span></p>
+        <button id="next">Next</button>
+        <p id="result"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
